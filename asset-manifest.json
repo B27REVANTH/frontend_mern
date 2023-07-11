@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frontend_mern/static/css/main.16e577bc.css",
+    "main.js": "/frontend_mern/static/js/main.c7b32767.js",
+    "static/media/empty-blackboard.jpg": "/frontend_mern/static/media/empty-blackboard.cb3005d70bc4ff1ec4bd.jpg",
+    "index.html": "/frontend_mern/index.html",
+    "main.16e577bc.css.map": "/frontend_mern/static/css/main.16e577bc.css.map",
+    "main.c7b32767.js.map": "/frontend_mern/static/js/main.c7b32767.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16e577bc.css",
+    "static/js/main.c7b32767.js"
+  ]
+}
