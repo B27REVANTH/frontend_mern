@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../public/images/empty-blackboard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+ 
+}
+
+.Link {
+  display: block;
+  margin-top: 20px;
+
+}
+
+.button {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.button.logout {
+  font-size: 24px;
+  color: rgb(248, 43, 60);
+}
+
+.Link.open-quiz {
+  color: rgba(235, 238, 243, 0.911);
+}

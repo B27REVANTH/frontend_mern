@@ -1,0 +1,157 @@
+.Login-Container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+    position: relative;
+    border-radius: 12px;
+    padding: 20px 30px 120px;
+    background: #3e75e1;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form.login {
+    position: absolute;
+    left: 50%;
+    bottom: -90%;
+    transform: translateX( -50% );
+    padding: 20px 140px;
+    border-radius: 100%;
+    height: 100%;
+    background: #fff;
+    transition: all 0.6s  ease;
+  }
+  .wrapper.active
+    .form.login {
+    bottom: -22%;
+    border-radius: 35%;
+    box-shadow: 0 -5px
+      10px rgba(0, 0, 0, 0.1);
+  }
+  .form
+    header {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .form.login
+    header {
+    color: #333;
+    opacity: 0.6;
+  }
+  .wrapper.active
+    .form.login
+    header {
+    opacity: 1;
+  }
+  .wrapper.active
+    .signup
+    header {
+    opacity: 0.6;
+  }
+  .wrapper
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  form input {
+    height: 60px;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .Signup{
+    background-color: #03a9f0;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+  }
+  .form.login
+    input {
+    border: 1px solid#aaa;
+  }
+  .form.login
+    input:focus {
+    box-shadow: 0 1px 0 #dddddd;
+  }
+  
+  form a {
+    color: #333;
+    text-decoration: none;
+  }
+  form
+    a:hover {
+    text-decoration: underline;
+  }
+  form
+    input[type="submit"] {
+    margin-top: 15px;
+    padding: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .form.login
+    input[type="submit"] {
+    background: #03a9f0;
+    color: #fff;
+    border: none;
+  }
+
+  .radio-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .radio-buttons label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .radio-buttons input[type="radio"] {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+    height: fit-content;
+  }
+  
+  .radio-buttons label:hover {
+    text-decoration: underline;
+  }
+  .radio-group input[type="radio"]:checked + label:before {
+    width: 20px; 
+    height: 20px; 
+  }
+  
+  .radio-group label:before {
+    width: 16px; 
+    height: 16px; 
+    left: 0;
+    top: 4px;
+    border: 2px solid #000;
+    border-radius: 50%;
+  }
+
+  
+  
